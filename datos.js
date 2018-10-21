@@ -22,23 +22,36 @@ let  gasas =[{
 ];
 
 let alimentos = [{
-    manzana: {
-        nombre: "manzana"
+    agua: {
+        nombre: "Agua",
+        descripcion: "3.9 Litros por persona"
         }
-    
+    },
+    {
+        galletas: {
+            nombre:"Galletas",
+            descripcion:"galletas integrales o galletas no saladas"
+        }
+    },
+    {
+        enlatados:{
+            nombre:"Enlatados/Conservas",
+            descripcion:"Enlatados de atún, carne, frutas, otros."
+        }
+    },
+    {
+        golosinas:{
+            nombre:"Golosinas",
+            descripcion:"Golosinas"
+        }
     }
 ];
-let medicamentos=[{
-            medicamentos
-        },
-    // Agua oxigenada para lavar y desinfectar heridas
-    // Ungüento antibiótico
-    // Toallas de alcohol empaquetadas individualmente
-    // Pastillas con y sin aspirina
-    // Medicamentos recetados y de uso prolongado (manténgalos al corriente)
-    // Medicación para la diarrea
-    // Gotas para los ojos
 
+let medicamentos=[{
+            medicamentos:"Agua oxigenada",
+	
+        }
+    
 ];
 let medicamentos = [{
             nombre: "aspirina",
@@ -98,17 +111,35 @@ let utensilios = [{
         descripcion : "consultar en caso de accidente"
 
     }
-    // Libro de primeros auxilios
-    // Termómetro
-    // Barra de jabón
-    // Pañuelos de papel
-    // Protector solar
-    // Vasos de papel
-    // Bolsas de plástico pequeñas
-    // Alfileres de seguridad
-    // Hilo y agujas
-    // Paquetes enfriadores instantáneos para esguinces
-    // Toallas sanitarias
-    // Materiales para entablillar
-
 }];
+
+let documentos = [
+    {
+       pasaporte:{
+           nombre:"Pasaporte",
+           descripcion:"Pasaporte "
+       } 
+    },
+    {
+        certificadoDeNacimiento:{
+            nombre:"Certificado de nacimiento",
+            descripcion:""
+        } 
+     },         
+     {
+        certificadoDeTítulosAcadémicos:{
+            nombre:"Certificado de títulos académicos",
+            descripcion:""
+        } 
+     },{
+        carnetDeVacunas:{
+            nombre:"Certificado de enfermedades alergias vacunas",
+            descripcion:""
+        } 
+     },{
+        ci:{
+            nombre:"Cédula de identidad",
+            descripcion:"Cédula de identidad o fotocopia"
+        } 
+     }
+];

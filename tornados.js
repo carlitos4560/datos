@@ -56,6 +56,14 @@ let medicamentos = [{
     descripcion: "aspirina para dolores de cabeza"
 },
 {
+    nombre :"pomada antibiotica",
+    descripcion : "pomada antibiotica"
+},
+{
+    nombre : "pomada para quemaduras",
+    descripcion: "pomadas para quemaduras"
+},
+{
     nombre: "ibuprofeno",
     descripcion: "calmante"
 }, {
@@ -99,6 +107,10 @@ let metalicos = [{
 ];
 
 let utensilios = [{
+    guantes:{
+        nombre: "Guantes latex",
+        descripcion: "evitar el contanto de manos sucias"
+    },
     linterna: {
         nombre: "Linterna",
         descripcion: "linterna con pitas cargadas"

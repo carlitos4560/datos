@@ -16,10 +16,49 @@ let  gasas =[{
     },
     {
         nombre : "Rollos de cinta adhesiva",
+<<<<<<< HEAD
         descripcion : "Ayuda a sostener las vendas"
     }
 ];
 
+=======
+        prioridad : 1
+    }
+];
+
+let alimentos = [{
+    agua: {
+        nombre: "Agua",
+        descripcion: "3.9 Litros por persona"
+        }
+    },
+    {
+        galletas: {
+            nombre:"Galletas",
+            descripcion:"galletas integrales o galletas no saladas"
+        }
+    },
+    {
+        enlatados:{
+            nombre:"Enlatados/Conservas",
+            descripcion:"Enlatados de atún, carne, frutas, otros."
+        }
+    },
+    {
+        golosinas:{
+            nombre:"Golosinas",
+            descripcion:"Golosinas"
+        }
+    }
+];
+
+let medicamentos=[{
+            medicamentos:"Agua oxigenada",
+	
+        }
+    
+];
+>>>>>>> 266f0d2bc14b38b3fe7947f0a80508a03f8d8971
 let medicamentos = [{
             nombre: "aspirina",
             descripcion: "aspirina para dolores de cabeza"
@@ -123,6 +162,7 @@ let utensilios = [{
         descripcion :"en casos de entablillar una fracturua"
     }
 }];
+<<<<<<< HEAD
 // datos del botiquin
 let botiquin = {
     nombre : "sunamis",
@@ -131,3 +171,36 @@ let botiquin = {
     metalicos : metalicos,
     utensilios : utensilios
 }
+=======
+
+let documentos = [
+    {
+       pasaporte:{
+           nombre:"Pasaporte",
+           descripcion:"Pasaporte "
+       } 
+    },
+    {
+        certificadoDeNacimiento:{
+            nombre:"Certificado de nacimiento",
+            descripcion:""
+        } 
+     },         
+     {
+        certificadoDeTítulosAcadémicos:{
+            nombre:"Certificado de títulos académicos",
+            descripcion:""
+        } 
+     },{
+        carnetDeVacunas:{
+            nombre:"Certificado de enfermedades alergias vacunas",
+            descripcion:""
+        } 
+     },{
+        ci:{
+            nombre:"Cédula de identidad",
+            descripcion:"Cédula de identidad o fotocopia"
+        } 
+     }
+];
+>>>>>>> 266f0d2bc14b38b3fe7947f0a80508a03f8d8971
